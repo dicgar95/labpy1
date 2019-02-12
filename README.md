@@ -11,6 +11,12 @@
 9.  Cetak “Bilangan Terbesar Bilangan Kedua”.
 10.  Cetak “Bilangan Terbesar Bilangan Ketiga”.
 11.  Selesai
+## Program
+![github](https://github.com/dicgar95/labpy1/blob/master/program.png)
+
+### Hasil program
+![github](https://github.com/dicgar95/labpy1/blob/master/hasil.png)
+
 ## Flow chart:
 
 ```mermaid
@@ -27,11 +33,3 @@ H-->|tidak|J[cetak terbesar bil ketiga]
 I-->K
 J-->K
 G-->K(selesei)
-
-
-
-## Program
-![github](https://github.com/dicgar95/labpy1/blob/master/program.png)
-
-### Hasil program
-![github](https://github.com/dicgar95/labpy1/blob/master/hasil.png)
