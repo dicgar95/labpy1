@@ -29,7 +29,7 @@ J-->K
 G-->K(selesei)
 
 ### Program
-![Program](labpy1/program.png)
+![github](https://github.com/dicgar95/labpy1/blob/master/program.png)
 
 ### Hasil program
-![Hasil program](labpy1/hasil.png)
+![github](https://github.com/dicgar95/labpy1/blob/master/hasil.png)
