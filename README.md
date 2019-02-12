@@ -14,16 +14,21 @@
 
 ## Flow chart:
 
-​```flow
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-​```
+```mermaid
+graph TD
+A[Mulai]-->B(Inisiasi bil1-integer bil2-integer bil3-integer)
+B-->C(baca bil1)
+C-->D(baca bil2)
+D-->E(baca bil3)
+E-->F{jika bil1>bil2 & bil1>bil3}
+F-->|ya| G[cetak terbear bil pertama]
+F-->|tidak| H[jika bil2>bil3 & bil2>bil1]
+H-->|ya| I[cetak terbesar bil kedua]
+H-->|tidak|J[cetak terbesar bil ketiga]
+I-->K
+J-->K
+G-->K(selesei)
+```
 ## Program
 ![github](https://github.com/dicgar95/labpy1/blob/master/program.png)
 
