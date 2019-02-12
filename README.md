@@ -15,7 +15,6 @@
 ## Flow chart:
 
 ```mermaid
-graph TD
 A[Mulai]-->B(Inisiasi bil1-integer bil2-integer bil3-integer)
 B-->C(baca bil1)
 C-->D(baca bil2)
