@@ -11,25 +11,26 @@
 9.  Cetak “Bilangan Terbesar Bilangan Kedua”.
 10.  Cetak “Bilangan Terbesar Bilangan Ketiga”.
 11.  Selesai
+
+## Flow chart:
+
+```mermaid
+graph TD
+A[Start] --> B(inisiasi bil1-integer bil2-integer bil3-integer)
+B --> C(baca bil1)
+C -->D(baca bil2)
+D-->E(baca bil3)
+E-->F(jika bil1>bil2 & bil1>bil3)
+F -->|ya| G[cetak terbear bil pertama]
+ F-->|tidak| H[jika bil2>bil3 & bil2>bil1]
+H-->|ya| I[cetak terbesar bil kedua]
+H-->|tidak|J[cetak terbesar bil ketiga]
+I-->K
+J-->K
+G-->K(selesei)
+```
 ## Program
 ![github](https://github.com/dicgar95/labpy1/blob/master/program.png)
 
 ### Hasil program
 ![github](https://github.com/dicgar95/labpy1/blob/master/hasil.png)
-
-## Flow chart:
-
-```mermaid
-graph TD;
-Start-->inisiasi bil1-integer bil2-integer bil3-integer;
-inisiasi bil1-integer bil2-integer bil3-integer --> baca bil1;
-baca bil1-->baca bil2;
-baca bil2-->baca bil3;
-baca bil3-->jika bil1>bil2 & bil1>bil3;
-jika bil1>bil2 & bil1>bil3 -->|ya|cetak terbear bil pertama;
-jika bil1>bil2 & bil1>bil3-->|tidak| jika bil2>bil3 & bil2>bil1;
-jika bil2>bil3 & bil2>bil1-->|ya| cetak terbesar bil kedua;
-jika bil2>bil3 & bil2>bil1-->|tidak|cetak terbesar bil ketiga;
-cetak terbesar bil kedua-->selesei;
-cetak terbesar bil ketiga-->selesei;
-cetak terbear bil pertama-->selesei;
