@@ -14,7 +14,6 @@
 
 ## Flow chart:
 
-```mermaid
 A[Mulai]-->B(Inisiasi bil1-integer bil2-integer bil3-integer)
 B-->C(baca bil1)
 C-->D(baca bil2)
@@ -27,7 +26,6 @@ H-->|tidak|J[cetak terbesar bil ketiga]
 I-->K
 J-->K
 G-->K(selesei)
-```
 ## Program
 ![github](https://github.com/dicgar95/labpy1/blob/master/program.png)
 
