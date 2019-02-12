@@ -21,9 +21,9 @@ B-->C(baca bil1)
 C-->D(baca bil2)
 D-->E(baca bil3)
 E-->F(jika bil1>bil2 & bil1>bil3)
-F-->|ya| G[cetak terbear bil pertama]
-F-->|tidak| H[jika bil2>bil3 & bil2>bil1]
-H-->|ya| I[cetak terbesar bil kedua]
+F-->|ya|G[cetak terbear bil pertama]
+F-->|tidak|H[jika bil2>bil3 & bil2>bil1]
+H-->|ya|I[cetak terbesar bil kedua]
 H-->|tidak|J[cetak terbesar bil ketiga]
 I-->K
 J-->K
